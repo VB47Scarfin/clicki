@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c2icg7ba2gphe"]
+
+[ext_resource type="Texture2D" uid="uid://bjifmt2icpqxd" path="res://icon.svg" id="1_t6e6q"]
+
+[node name="Control" type="Control" unique_id=1105568361]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="." unique_id=1910418138]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 232.0
+offset_right = 648.0
+offset_bottom = 368.0
+icon = ExtResource("1_t6e6q")
